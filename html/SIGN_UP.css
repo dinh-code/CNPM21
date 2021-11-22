@@ -1,0 +1,225 @@
+.mediaViewInfo {
+	--web-view-name: SIGN UP;
+	--web-view-id: SIGN_UP;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: SIGN_UP;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#SIGN_UP {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: SIGN UP;
+	--web-view-id: SIGN_UP;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#home_black_48dp_gn {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 146px;
+	top: 79px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: HOME.html;
+	cursor: pointer;
+}
+#Path_10_go {
+	fill: transparent;
+}
+.Path_10_go {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_11_gp {
+	fill: rgba(112,112,112,1);
+}
+.Path_11_gp {
+	overflow: visible;
+	position: absolute;
+	width: 56px;
+	height: 53px;
+	left: 2px;
+	top: 3px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_1_gq {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1_gq {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.459));
+	position: absolute;
+	overflow: visible;
+	width: 579px;
+	height: 583px;
+	left: 680px;
+	top: 324px;
+}
+#Rectangle_8_gr {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_8_gr {
+	position: absolute;
+	overflow: visible;
+	width: 398px;
+	height: 57px;
+	left: 761px;
+	top: 383px;
+}
+#Rectangle_9_gs {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_9_gs {
+	position: absolute;
+	overflow: visible;
+	width: 398px;
+	height: 57px;
+	left: 761px;
+	top: 484px;
+}
+#Rectangle_15 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 398px;
+	height: 57px;
+	left: 761px;
+	top: 585px;
+}
+#Rectangle_10_gu {
+	fill: rgba(255,112,112,1);
+}
+.Rectangle_10_gu {
+	position: absolute;
+	overflow: visible;
+	width: 240px;
+	height: 57px;
+	left: 841px;
+	top: 709px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOGIN.html;
+	cursor: pointer;
+}
+#NG_K {
+	left: 906px;
+	top: 720px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,255,255,1);
+}
+#ng_nhp {
+	left: 893px;
+	top: 791px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: LOGIN.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,112,112,1);
+	text-decoration: underline;
+}
+#mt_khu_gx {
+	left: 902px;
+	top: 495px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,112,112,0.702);
+}
+#Nhp_li_mt_khu {
+	left: 845px;
+	top: 596px;
+	position: absolute;
+	overflow: visible;
+	width: 231px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,112,112,0.702);
+}
+#email_gz {
+	left: 926px;
+	top: 394px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,112,112,0.702);
+}

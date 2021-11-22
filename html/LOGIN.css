@@ -1,0 +1,198 @@
+.mediaViewInfo {
+	--web-view-name: LOGIN;
+	--web-view-id: LOGIN;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: LOGIN;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#LOGIN {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: LOGIN;
+	--web-view-id: LOGIN;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#home_black_48dp_ga {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 146px;
+	top: 79px;
+	overflow: visible;
+	--web-animation: fadein 1s snap;
+	--web-action-type: page;
+	--web-action-target: HOME.html;
+	cursor: pointer;
+}
+#Path_10_gb {
+	fill: transparent;
+}
+.Path_10_gb {
+	overflow: visible;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_11_gc {
+	fill: rgba(112,112,112,1);
+}
+.Path_11_gc {
+	overflow: visible;
+	position: absolute;
+	width: 56px;
+	height: 53px;
+	left: 2px;
+	top: 3px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_1_gd {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1_gd {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.459));
+	position: absolute;
+	overflow: visible;
+	width: 579px;
+	height: 583px;
+	left: 680px;
+	top: 324px;
+}
+#Rectangle_8 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 398px;
+	height: 57px;
+	left: 761px;
+	top: 439px;
+}
+#Rectangle_9 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_9 {
+	position: absolute;
+	overflow: visible;
+	width: 398px;
+	height: 57px;
+	left: 761px;
+	top: 540px;
+}
+#ng_k {
+	left: 913px;
+	top: 791px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: SIGN_UP.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,112,112,1);
+	text-decoration: underline;
+}
+#email {
+	left: 926px;
+	top: 450px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,112,112,0.702);
+}
+#mt_khu {
+	left: 902px;
+	top: 551px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,112,112,0.702);
+}
+#Rectangle_10 {
+	fill: rgba(255,112,112,1);
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 240px;
+	height: 57px;
+	left: 841px;
+	top: 709px;
+}
+#NG_NHP_gk {
+	left: 881px;
+	top: 720px;
+	position: absolute;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: HOME___1.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	color: rgba(255,255,255,1);
+}
